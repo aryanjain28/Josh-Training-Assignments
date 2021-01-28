@@ -1,0 +1,17 @@
+#rules of default parameters, method name:
+-> method name should start with small alphabet
+-> required parameters are the most favored, followed by default parameters then lastly optional parameters.
+
+e.g.. def print_parameters(pram1, pram2 = 5, pram3*)
+        end
+
+#difference between lambda and proc
+-->  a lambda checks the number of arguments passed to it, while a proc does not. 
+This means that a lambda will throw an error if you pass it the wrong number of arguments, 
+whereas a proc will ignore unexpected arguments and assign nil to any that are missing
+
+Another difference between procs & lambdas is how they react to a return statement.
+
+A lambda will return normally, like a regular method.
+
+But a proc will try to return from the current context.
