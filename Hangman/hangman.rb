@@ -1,7 +1,8 @@
 wordList = [
     "Aryan", "Sumit", "Ashutosh", "Atharva", "Rutuja", 
     "Samruddhi", "Atira",
-    "Josh", "Interns", "Software", "Ruby"]
+    "Josh", "Interns", "Software", "Ruby"
+]
 
 attempt = 10
 nWords = wordList.size
