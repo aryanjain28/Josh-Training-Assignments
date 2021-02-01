@@ -7,10 +7,9 @@ attempt = 10
 nWords = wordList.size
 
 word = wordList[rand(nWords)].upcase
-nLetters = word.size
-index = 0
-myWord = ""
-puts(word)
+nLetters = word.size-1
+index = 1
+myWord = word[0]
 
 while attempt > 0 && nLetters > 0
     puts(myWord.strip + " _"*nLetters)
@@ -18,7 +17,6 @@ while attempt > 0 && nLetters > 0
     print("\n\nEnter you guess: ")
 
     guess = gets().upcase
-    # guess = guess.upcase
 
     if guess.chomp.upcase == word[index].chomp
         puts("\nRight!\n\n")
