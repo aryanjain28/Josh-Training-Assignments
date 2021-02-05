@@ -1,0 +1,14 @@
+[
+    { "title": "DDLJ", "year": 1997, "rating": 8.1 },
+    { "title": "Kuch Kuch Hota Hai", "year": 1998, "rating": 7.6 },
+    { "title": "Kabhi Khushi Kabhi Gum", "year": 2001, "rating": 7.4 },
+    { "title": "Kal Ho Na Ho", "year": 2003, "rating": 8 },
+    { "title": "Kabhi Alvida Na Kehena", "year": 2006, "rating": 6.1 },
+    { "title": "Om Shanti Om", "year": 2007, "rating": 6.7 },
+    { "title": "My Name is Khan", "year": 2010, "rating": 8 },
+    { "title": "Chennai Express", "year": 2013, "rating": 6.0 },
+    { "title": "Dil Se", "year": 1998, "rating": 7.6 },
+    { "title": "Virzara", "year": 2003, "rating": 6.7 },
+    { "title": "Zero", "year": 2018, "rating": 3.7 },
+    { "title": "Pathan", "year": 2021, "rating": 6.7 }
+]
